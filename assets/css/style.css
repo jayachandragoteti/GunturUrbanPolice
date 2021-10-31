@@ -1101,7 +1101,7 @@ section {
     padding: 5px 0;
   }
 }
-
+/* 
 .single_advisor_profile {
   position: relative;
   margin-bottom: 50px;
@@ -1232,4 +1232,4 @@ section {
 .single_advisor_profile:hover .single_advisor_details_info p,
 .single_advisor_profile:focus .single_advisor_details_info p {
   color: #ffffff;
-}
+} */
