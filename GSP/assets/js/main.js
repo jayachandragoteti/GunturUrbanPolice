@@ -247,22 +247,33 @@
 function ajaxServices() {
   $('#team').hide();
   $('#gallery').hide();
+  $('#location').hide();
   $('#services').show();
   $(".circle-services").addClass("active");
-  $(".circle-gallery,.circle-team").removeClass("active");
+  $(".circle-gallery,.circle-team,.circle-location").removeClass("active");
 }
 function ajaxTeam() {
   $('#services').hide();
   $('#gallery').hide();
+  $('#location').hide();
   $('#team').show();
   $(".circle-team").addClass("active");
-  $(".circle-gallery,.circle-services").removeClass("active");
+  $(".circle-gallery,.circle-services,.circle-location").removeClass("active");
 }
 function ajaxGallery() {
   $('#services').hide();
   $('#team').hide();
+  $('#location').hide();
   $('#gallery').show();
   $(".circle-gallery").addClass("active");
-  $(".circle-services,.circle-team").removeClass("active");
+  $(".circle-services,.circle-team,.circle-location").removeClass("active");
+}
+function ajaxLocation() {
+  $('#services').hide();
+  $('#team').hide();
+  $('#gallery').hide();
+  $('#location').show();
+  $(".circle-location").addClass("active");
+  $(".circle-services,.circle-team,.circle-gallery").removeClass("active");
 }
 

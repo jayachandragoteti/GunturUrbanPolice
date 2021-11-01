@@ -1378,8 +1378,15 @@ section {
 #emergency a:hover {
   background: #8b0000;
 }
-
-.contact-section-icon-box {
+.main-site-content {
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.main-site-content .contact-section-icon-box {
   width: 10rem;
   height: 10rem;
   background: #007bff;
@@ -1390,6 +1397,7 @@ section {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 #AjaxMain .active {
   background: #000080;
 }
