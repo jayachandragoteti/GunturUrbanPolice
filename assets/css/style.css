@@ -1,5 +1,5 @@
 /**
-* Template Name: Appland - v4.6.0
+* Templ.te Name: Appland - v4.6.0
 * Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -1101,3 +1101,47 @@ section {
     padding: 5px 0;
   }
 }
+.view-more{
+  background: #010080;
+}
+.view-more:hover{
+  background: #3f3fec;
+}
+.popup-btn a{
+  top:300px;
+  position:fixed;
+  right:-10px;
+  z-index: 1000;
+  transform: rotate(0deg);
+  background-color: red;
+  padding:10px 20px 35px 15px ;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 0px;
+  background-color:#010080;
+  color:#fff;
+  }
+  .popup-btn a:hover{
+  text-decoration: none;
+  color:#fff;
+  }
+  .contact-icon{
+    display: inline-block;
+    background: #010080;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+  }
+  .team-hr{
+    color: #010080;
+    width: 20%;
+  }
+  .team-heading{
+    margin-top: -10px;
+  }
