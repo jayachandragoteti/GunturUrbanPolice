@@ -70,6 +70,29 @@ h6 {
     transition-delay: 0 !important;
   }
 }
+/*----------------------------------------------
+#Location
+---------------------------------------------------*/
+p{
+  font-size: 50px;
+  font-weight: 800;
+  color:#415f9d
+}
+select{
+  height: 40px;
+  width:200px;
+  border-radius:7px;
+  border: 5px rgb(28, 53, 107);
+  margin-top:40px;
+}
+select:focus{
+  box-shadow: 5px 5px 12px #004ed4bb;
+  border:5px blue;
+}
+.location{
+  position: relative;
+  top:20px;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
